@@ -1,6 +1,30 @@
+# reading action plan DB設計
 # README
 
-This README would normally document whatever steps are necessary to get the
+## usersテーブル
+|Colum|Type|Option|
+|-----|----|------|
+|email|string|null: false, unique: true|
+|password|string|null: false|
+|nickname|string|null: false|
+
+### Association
+has_many :posts
+
+## postsテーブル
+|Colum|Type|Option|
+|-----|----|------|
+|title|text|null: false|
+|keyword|text|null: false|
+|plan|text|null: false|
+|achivement|srting||
+|user_id|references|null:false,foreign_key:true|
+
+
+### Association
+belongs_to :user
+
+<!-- This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Things you may want to cover:
@@ -21,4 +45,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* ... -->
