@@ -17,7 +17,7 @@ has_many :posts
 |title|text|null: false|
 |keyword|text|null: false|
 |plan|text|null: false|
-|achivement|srting||
+|achivement|string||
 |user_id|references|null:false,foreign_key:true|
 
 
