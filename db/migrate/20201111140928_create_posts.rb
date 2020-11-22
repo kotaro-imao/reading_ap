@@ -4,7 +4,7 @@ class CreatePosts < ActiveRecord::Migration[5.2]
       t.text :title
       t.text :keyword
       t.text :plan
-      t.string :achivement
+      t.text :achivement
       t.integer :user_id  # references ではなく integer を使用する
       t.timestamps
     end

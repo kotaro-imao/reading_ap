@@ -1,0 +1,10 @@
+<div class="keyword__title">
+  新規 Readingアクションプラン の作成  <!--新規作成のページ-->
+</div>
+
+<%= form_with model: @post, class: :form, local: true do |form| %>
+  <%= form.text_field :title, placeholder: :タイトル, class: :form__title %>
+  <%= form.text_field :keyword, placeholder: :キーワード, class: :form__keyword %>
+  <%= form.text_area :plan, placeholder: :アクションプラン, class: :form__plan %>  <!--text_area は今回使用しない-->
+  <%= form.submit '投稿する', class: :form__btn %>
+<% end %>

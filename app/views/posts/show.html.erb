@@ -1,0 +1,22 @@
+<div class="postTitle">
+  タイトル :
+  <%= @post.title %>
+</div>
+<div class="postDate">
+  <%= @post.created_at %>
+</div>
+<div class="postKeyword">
+  キーワード :
+  <%= @post.keyword %>
+</div>
+<div class="postManage">
+  <%= link_to "編集", edit_post_path(@post.id), class: "postManage__edit" %>
+  <%= link_to "削除", post_path(@post.id), method: :delete, class: "postManage__delete" %>
+</div>
+<div class="postPlan">
+  アクションプラン :
+  <%= simple_format @post.plan %>  <!--simple_formatヘルパーメソッド データの改行を反映する-->
+</div>
+<div class="achivement">
+  <%= @post.achivement %>
+</div>

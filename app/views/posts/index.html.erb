@@ -1,15 +1,17 @@
                                           <!--トップページ-->
 <% @posts.each do |post| %>               <!--postテーブルの全レコード-->
   <div class="keyword">
-    <div class="keyword__left--image"></div>
-  </div>
-  <div class="keyword__right">
-    <div class="keyword__right__top">      <!--1行目を表示-->
-      <%= post.title%> <%= post.keyword%>  <!--ruby変数 タイトル を表示-->
+    <div class="keyword__left">
+      <div class="keyword__left--image"></div>
     </div>
-    <div class="keyword__right__bottom">  <!--2行目を表示-->
-      <div class="keyword__right__bottom--dete">
-        <%= post.created_at %>            <!--ruby変数 作成日 を表示-->
+    <div class="keyword__right">
+      <div class="keyword__right__top">      <!--1行目を表示-->
+        <%= link_to post.title, post_path(post.id), class: "keyword__right__top--title" %>  <!--詳細ページに遷移-->
+      </div>
+      <div class="keyword__right__bottom">  <!--2行目を表示-->
+        <div class="keyword__right__bottom--dete">
+          <%= post.created_at %>            <!--ruby変数 作成日 を表示-->
+        </div>
       </div>
     </div>
   </div>

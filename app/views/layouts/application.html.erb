@@ -12,10 +12,10 @@
   <body>
     <header class="header">
       <div class="header__title">
-        <%= link_to "Reding action plan", '#', class: "header__title--text" %>
+        <%= link_to "Reding action plan", root_path, class: "header__title--text" %>  <!--root Prefixで変数化 アクセスする-->
       </div>
       <div class="header__right">
-        <%= link_to "新規投稿", '#', class: "header__right--btn" %>
+        <%= link_to "新規投稿", new_post_path, class: "header__right--btn" %>  <!--new_post Prefixで変数化 アクセスする-->
       </div>
     </header>
 
