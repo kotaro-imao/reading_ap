@@ -1,0 +1,17 @@
+<div class="content__title">
+  Reading 投稿の編集
+</div>
+<%= form_with model: @post, class: :form, local: true do |form| %>
+  <%= form.text_field :title, placeholder: :タイトル, class: :form__title %>
+  <%= form.text_field :keyword, placeholder: :キーワード, class: :form__keyword %>
+  <%= form.text_area :plan, placeholder: :アクションプラン, class: :form__plan %>
+
+  <%= form.radio_button :achivement, :アクションプラン実行完了 %>
+  <%= form.label :achivement, :アクションプラン実行完了, class: :form__achivement %>
+
+  <!-- <label class="achivement">
+    <input type="radio" name="achivement" value="0">アクションプラン実行完了
+  </label> -->
+
+  <%= form.submit '投稿する', class: :form__btn %>
+<% end %>
