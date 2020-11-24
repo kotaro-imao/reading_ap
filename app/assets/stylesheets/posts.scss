@@ -31,14 +31,16 @@ body{
   }
   .contents{                                //
     margin: 30px auto 0;
-    background-color: #fff;
-    // background-image: url(books1.jpg);
-    // background-size: cover;
-    // background-position: center;
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
-    // flex-direction: column;
+    // background-color: #fff;
+    // background-image: url(img_reading2.jpg);
+    background-image: url(img_note1.jpg);
+    background-size: cover;
+    background-position: center;
+    // background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     height: 600px;
     width: 70%;
     overflow: scroll;
@@ -63,6 +65,9 @@ body{
           &--title{
             text-decoration: none;
             color: #000000;
+          }
+          &--title:hover{
+            box-shadow:0 0 10px blue;
           }
         }
         &__bottom{
