@@ -10,12 +10,12 @@
 #   https://dev.mysql.com/doc/refman/5.7/en/password-hashing.html
 #
 default: &default
-  adapter: mariadb
+  adapter: mysql2
   encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
   password:
-  socket: /tmp/mariadb.sock
+  socket: /tmp/mysql.sock
 
 development:
   <<: *default
@@ -52,4 +52,4 @@ production:
   database: reading_ap_production
   username: root
   password: <%= ENV['DATABASE_PASSWORD'] %>
-  socket: /var/lib/mariadb/mariadb.sock
+  socket: /var/lib/mysql/mysql.sock
