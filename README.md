@@ -1,3 +1,10 @@
+# Rwading action plan
+トップページ
+
+https://gyazo.com/f873727665c39baa748298c246365e81
+
+
+
 # reading action plan DB設計
 # README
 
