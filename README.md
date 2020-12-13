@@ -3,7 +3,9 @@
 
 <img width="960" alt="スクリーンショット 2020-12-13 16 37 18" src="https://user-images.githubusercontent.com/66189601/102006536-3c719500-3d65-11eb-99ce-4b0eb7b73556.png">
 
-「![Gif](https://github.com/kotaro-imao/reading_ap.wiki.git)」
+![Gif](https://github.com/kotaro-imao/reading_ap.wiki.git)
+
+
 
 
 # reading action plan DB設計
