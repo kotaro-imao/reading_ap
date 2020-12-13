@@ -1,7 +1,11 @@
 # Reading action plan
 トップページ
-
 <img width="960" alt="スクリーンショット 2020-12-13 16 37 18" src="https://user-images.githubusercontent.com/66189601/102006536-3c719500-3d65-11eb-99ce-4b0eb7b73556.png">
+
+トップページ
+<img width="500" alt="スクリーンショット 2020-12-13 16 37 18" src="https://user-images.githubusercontent.com/66189601/102006536-3c719500-3d65-11eb-99ce-4b0eb7b73556.png">
+
+
 
 新規投稿
 <img width="971" alt="スクリーンショット 2020-12-13 20 35 06" src="https://user-images.githubusercontent.com/66189601/102011376-f62d2d80-3d86-11eb-92ad-076985764ff0.png">
