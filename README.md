@@ -7,7 +7,7 @@
 
 <img width="500" alt="スクリーンショット 2020-12-13 20 35 06" src="https://user-images.githubusercontent.com/66189601/102011376-f62d2d80-3d86-11eb-92ad-076985764ff0.png">
 
-018559e82b9722b0ff4f6d5f5ef04974.mp4
+<img width="500" src=018559e82b9722b0ff4f6d5f5ef04974.mp4>
 
 
 
