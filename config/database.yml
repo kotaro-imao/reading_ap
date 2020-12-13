@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: reading_ap_production
-  username: reading_ap
-  password: <%= ENV['READING_AP_DATABASE_PASSWORD'] %>
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
