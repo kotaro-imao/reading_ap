@@ -27,8 +27,7 @@ DEMO :
 
 ![f85a0ecd7d510c2f80b36bfcb4757f30](https://user-images.githubusercontent.com/66189601/102232838-f23e0e80-3f32-11eb-99e5-96da70a0e5ed.gif)
 
-
-<img width="500" alt="スクリーンショット 2020-12-13 20 35 06" src="https://user-images.githubusercontent.com/66189601/102011376-f62d2d80-3d86-11eb-92ad-076985764ff0.png">
+![f85a0ecd7d510c2f80b36bfcb4757f30]<img src=(https://user-images.githubusercontent.com/66189601/102232838-f23e0e80-3f32-11eb-99e5-96da70a0e5ed.gif) width=600px>
 
 詳細・編集・削除
       本のタイトルをクリックし詳細を表示、編集・削除のメニュー表示
@@ -36,13 +35,7 @@ DEMO :
 ![readingedit](https://user-images.githubusercontent.com/66189601/102098418-8bedb900-3e6a-11eb-86c1-67b93b528a4e.gif)
 
 
-<img width="500" src=018559e82b9722b0ff4f6d5f5ef04974.mp4>
 
-image: url 018559e82b9722b0ff4f6d5f5ef04974.mp4
-
-![Gif](https://github.com/kotaro-imao/reading_ap.wiki.git)
-
-![Gif](https://github.com/kotaro-imao/reading_ap.wiki.git)
 
 工夫したポイント : ラジオボタンの選択をデータベースに保存する
 
