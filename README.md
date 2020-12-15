@@ -27,7 +27,7 @@ DEMO :
 
 ![f85a0ecd7d510c2f80b36bfcb4757f30](https://user-images.githubusercontent.com/66189601/102232838-f23e0e80-3f32-11eb-99e5-96da70a0e5ed.gif)
 
-![f85a0ecd7d510c2f80b36bfcb4757f30]<img src="https://user-images.githubusercontent.com/66189601/102232838-f23e0e80-3f32-11eb-99e5-96da70a0e5ed.gif" width="600">
+<img src="https://user-images.githubusercontent.com/66189601/102232838-f23e0e80-3f32-11eb-99e5-96da70a0e5ed.gif" width="600">
 
 詳細・編集・削除
       本のタイトルをクリックし詳細を表示、編集・削除のメニュー表示
