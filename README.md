@@ -20,7 +20,7 @@ DEMO :
 トップページ
       本の一覧を表示、
 
-<img width="500" alt="スクリーンショット 2020-12-13 16 37 18" src="https://user-images.githubusercontent.com/66189601/102006536-3c719500-3d65-11eb-99ce-4b0eb7b73556.png">
+<img width="600" alt="スクリーンショット 2020-12-13 16 37 18" src="https://user-images.githubusercontent.com/66189601/102006536-3c719500-3d65-11eb-99ce-4b0eb7b73556.png">
 
 新規投稿
       「新規投稿」をクリックし、タイトル・キーワード・アクションプラン を記入し投稿
@@ -32,8 +32,15 @@ DEMO :
 詳細・編集・削除
       本のタイトルをクリックし詳細を表示、編集・削除のメニュー表示
 
+<img src="https://user-images.githubusercontent.com/66189601/102237686-426b9f80-3f38-11eb-825e-e922d3ff8a8f.gif" width="600">
+
+![018559e82b9722b0ff4f6d5f5ef04974](https://user-images.githubusercontent.com/66189601/102237686-426b9f80-3f38-11eb-825e-e922d3ff8a8f.gif)
+
 ![readingedit](https://user-images.githubusercontent.com/66189601/102098418-8bedb900-3e6a-11eb-86c1-67b93b528a4e.gif)
 
+<img src="https://user-images.githubusercontent.com/66189601/102238070-b443e900-3f38-11eb-8f7d-9a0f107d378e.gif" width="600">
+
+![298657989538163d984e90ba39d432c4](https://user-images.githubusercontent.com/66189601/102238070-b443e900-3f38-11eb-8f7d-9a0f107d378e.gif)
 
 
 
